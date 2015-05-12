@@ -1,22 +1,22 @@
-dn: Barbara Branaman,mail=bbranaman@concentric.com
+dn: John Valentine,mail=jvalenti@gssnet.com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: mozillaAbPersonAlpha
-givenName: Barbara
-sn: Branaman
-cn: Barbara Branaman
-mozillaNickname: barb
-mail: bbranaman@concentric.com
-mozillaSecondEmail: BBranaman@xo.com
-nsAIMid: barb
+givenName: John
+sn: Valentine
+cn: John Valentine
+mozillaNickname: johnv
+mail: jvalenti@gssnet.com
+mozillaSecondEmail: jvalenti@gsslab.net
+nsAIMid: jvalenti
 mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 817-2565
+telephoneNumber: 1 (408) 555-1212
 homePhone: 
-fax: 1 (408) 817-2630
+fax: 1 (408) 555-1212
 pager: 
-mobile: 1 (408) 590-6230
+mobile: 1 (408) 555-1212
 street: 55 Almaden Blvd., Suite 700
 mozillaWorkStreet2: 
 l: San Jose
@@ -24,27 +24,27 @@ st: 95113
 postalCode: CA
 c: US
 title: President
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
+department: GSS
+company: Global System Services Corporation
+mozillaWorkUrl: http://www.gssnet.com
 
-dn: Bill Uyeki,mail=buyeki@concentric.com
+dn: Sally Jones,mail=sjones@gssnet.com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: mozillaAbPersonAlpha
-givenName: Bill
-sn: Uyeki
-cn: Bill Uyeki
-mozillaNickname: billu
-mail: buyeki@concentric.com
-mozillaSecondEmail: buyeki@xo.com
-nsAIMid: billu
+givenName: Sally
+sn: Jones
+cn: Sally Jones
+mozillaNickname: sallyj
+mail: sjones@gssnet.com
+mozillaSecondEmail: sjones@gsslab.net
+nsAIMid: sjones
 mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 817-2294
+telephoneNumber: 1 (408) 555-1212
 homePhone: 
-fax: 1 (408) 817-2630
+fax: 1 (408) 555-1212
 pager: 
 mobile: 
 street: 55 Almaden Blvd., Suite 700
@@ -54,27 +54,27 @@ st: CA
 postalCode: 95113
 c: US
 title: Senior Product Line Manager
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
+department: GSS
+company: Global System Services Corporation
+mozillaWorkUrl: http://www.gssnet.com
 
-dn: Candace Etcheverry,mail=candace.etcheverry@xo.com
+dn: Theresa Rizzo,mail=trizzo@gsslab.net
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: mozillaAbPersonAlpha
-givenName: Candace
-sn: Etcheverry
-cn: Candace Etcheverry
+givenName: Theresa
+sn: Rizzo
+cn: Theresa Rizzo
 mozillaNickname: 
-mail: candace.etcheverry@xo.com
+mail: trizzo@gsslab.net
 mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 794-2174
+nsAIMid: trizzo
+mozillaUseHtmlMail: true
+telephoneNumber: 1 (408) 555-1212
 homePhone: 
-fax: 1 (408) 817-2630
+fax: 1 (408) 555-1212
 pager: 
 mobile: 
 street: 55 Almaden Blvd., Suite 700
@@ -84,850 +84,9 @@ st: CA
 postalCode: 95113
 c: US
 title: Marketing Programs Manager
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Chris Behrens,mail=cbehrens@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Chris
-sn: Behrens
-cn: Chris Behrens
-mozillaNickname: 
-mail: cbehrens@concentric.com
-mozillaSecondEmail: cbehrens@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 1 (408) 817-2630
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Chris Kotacka,mail=arch@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Chris
-sn: Kotacka
-cn: Chris Kotacka
-mozillaNickname: 
-mail: arch@concentric.com
-mozillaSecondEmail: arch@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Craig Pool,mail=craig.pool@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Craig
-sn: Pool
-cn: Craig Pool
-mozillaNickname: 
-mail: craig.pool@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (303) 539-1088
-homePhone: 
-fax: 1 (720) 284-6052
-pager: 
-mobile: 1 (720) 935-2128
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: Senior Enterprise Account Executive
-department: 
-company: XO Communications, Inc.
-mozillaWorkUrl: 
-
-dn: Dale Wang,mail=dwang@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Dale
-sn: Wang
-cn: Dale Wang
-mozillaNickname: dalew
-mail: dwang@concentric.com
-mozillaSecondEmail: Dale.Wang@xo.com
-nsAIMid: dalew
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 794-2177
-homePhone: 
-fax: 1 (408) 817-2630
-pager: 
-mobile: 1 (408) 904-8236
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Sr. Product Manager
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: David Schairer,mail=njal@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: David
-sn: Schairer
-cn: David Schairer
-mozillaNickname: njal
-mail: njal@concentric.com
-mozillaSecondEmail: njal@sw.xo.com
-nsAIMid: njal
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 817-2817
-homePhone: 
-fax: 1 (408) 817-2630
-pager: 
-mobile: 
-street: 55 Almaden Blvd.., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Chief Technology Officer
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Emanuele Tosi,mail=etosi@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Emanuele
-sn: Tosi
-cn: Emanuele Tosi
-mozillaNickname: 
-mail: etosi@concentric.com
-mozillaSecondEmail: emanuele.tosi@xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 1 (408) 817-2630
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Chief Financial Officer
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Gary Ellis,mail=gellis@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Gary
-sn: Ellis
-cn: Gary Ellis
-mozillaNickname: 
-mail: gellis@concentric.com
-mozillaSecondEmail: gellis@xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 794-2316
-homePhone: 
-fax: 1 (408) 817-2630
-pager: 
-mobile: 1 (408) 228-7954
-street: 55 Almaden Blvd., 
-Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Product Manager
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Geraldine Pennant,mail=gpennant@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Geraldine
-sn: Pennant
-cn: Geraldine Pennant
-mozillaNickname: 
-mail: gpennant@concentric.com
-mozillaSecondEmail: gpennant@xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 817-2414
-homePhone: 
-fax: 1 (408) 817-2630
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Gretchen Schiffer,mail=gschiffer@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Gretchen
-sn: Schiffer
-cn: Gretchen Schiffer
-mozillaNickname: 
-mail: gschiffer@concentric.com
-mozillaSecondEmail: GSchiffer@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 817-2854
-homePhone: 1 (408) 369-1772
-fax: 1 (408) 817-2630
-pager: 
-mobile: 
-street: 55 Almaden Blvd.., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Director; Engineering Services
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Ha Phan,mail=hphan@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Ha
-sn: Phan
-cn: Ha Phan
-mozillaNickname: 
-mail: hphan@concentric.com
-mozillaSecondEmail: hphan@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Jesse Mundis,mail=jesse@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Jesse
-sn: Mundis
-cn: Jesse Mundis
-mozillaNickname: 
-mail: jesse@concentric.com
-mozillaSecondEmail: jmundis@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 794-2941
-homePhone: 
-fax: 1 (408) 817-2630
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Lead Engineer / Senior Architect
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Jim Kajpust,mail=jkajpust@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Jim
-sn: Kajpust
-cn: Jim Kajpust
-mozillaNickname: 
-mail: jkajpust@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (989) 758-6984
-homePhone: 
-fax: 1 (989) 758-6510
-pager: 
-mobile: 
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: Hosting Care
-department: Concentric
-company: XO Communications, Inc.
-mozillaWorkUrl: 
-
-dn: Jim McQuillan,mail=jmcquillan@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Jim
-sn: McQuillan
-cn: Jim McQuillan
-mozillaNickname: 
-mail: jmcquillan@concentric.com
-mozillaSecondEmail: jmcquillan@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Joel Jiao,mail=jjiao@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Joel
-sn: Jiao
-cn: Joel Jiao
-mozillaNickname: 
-mail: jjiao@concentric.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: John Howells,mail=jhowells@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: John
-sn: Howells
-cn: John Howells
-mozillaNickname: 
-mail: jhowells@concentric.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Ken Kohn,mail=kkohn@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Ken
-sn: Kohn
-cn: Ken Kohn
-mozillaNickname: 
-mail: kkohn@concentric.com
-mozillaSecondEmail: kkohn@xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Matt Ricker,mail=matthew.ricker@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Matt
-sn: Ricker
-cn: Matt Ricker
-mozillaNickname: 
-mail: matthew.ricker@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (989) 758-6541
-homePhone: 1 (888) 575-6398 Toll Free
-fax: 
-pager: 
-mobile: 
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: Technical Support Supervisor
-department: Customer Care
-company: XO Communications, Inc.
-mozillaWorkUrl: 
-
-dn: Melody Appleton,mail=mappleton@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Melody
-sn: Appleton
-cn: Melody Appleton
-mozillaNickname: 
-mail: mappleton@concentric.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 817-2479
-homePhone: 
-fax: 1 (408) 817-2530
-pager: 
-mobile: 1 (510) 823-6072
-street: 5 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Marketing3
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Michael Lage,mail=MLage@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Michael
-sn: Lage
-cn: Michael Lage
-mozillaNickname: 
-mail: MLage@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: 
-department: 
-company: XO Communications, Inc.
-mozillaWorkUrl: 
-
-dn: Mike Andersen,mail=mandersen@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Mike
-sn: Andersen
-cn: Mike Andersen
-mozillaNickname: 
-mail: mandersen@concentric.com
-mozillaSecondEmail: mandersen@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Mike Casey,mail=MCasey@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Mike
-sn: Casey
-cn: Mike Casey
-mozillaNickname: 
-mail: MCasey@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: 
-department: 
-company: XO Communications, Inc.
-mozillaWorkUrl: 
-
-dn: Mike Scott,mail=mscott@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Mike
-sn: Scott
-cn: Mike Scott
-mozillaNickname: 
-mail: mscott@concentric.com
-mozillaSecondEmail: mscott@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Randy Ide,mail=ride@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Randy
-sn: Ide
-cn: Randy Ide
-mozillaNickname: 
-mail: ride@concentric.com
-mozillaSecondEmail: Randy.L.Ide@xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (408) 817-2416
-homePhone: 1 (415) 647-2000
-fax: 1 (408) 817-2630
-pager: 
-mobile: 1 (408) 854-0387
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: Sr. Product Manager; Messaging Products
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Rob Field,mail=rfield@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Rob
-sn: Field
-cn: Rob Field
-mozillaNickname: 
-mail: rfield@concentric.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Scott Fortenberry,mail=Scott.Fortenberry@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Scott
-sn: Fortenberry
-cn: Scott Fortenberry
-mozillaNickname: 
-mail: Scott.Fortenberry@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 1 (989) 758-6531
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: Hosting Project/Program Mgmt
-department: Customer Care
-company: XO Communications, Inc.
-mozillaWorkUrl: 
-
-dn: Steve Ussery,mail=sussery@concentric.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Steve
-sn: Ussery
-cn: Steve Ussery
-mozillaNickname: 
-mail: sussery@concentric.com
-mozillaSecondEmail: sussery@sw.xo.com
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 55 Almaden Blvd., Suite 700
-mozillaWorkStreet2: 
-l: San Jose
-st: CA
-postalCode: 95113
-c: US
-title: 
-department: Concentric
-company: XO Communications, Inc. / Concentric
-mozillaWorkUrl: 
-
-dn: Todd Weinecke,mail=tweinecke@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Todd
-sn: Weinecke
-cn: Todd Weinecke
-mozillaNickname: 
-mail: tweinecke@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: Care Program Manager / Professional Services Manager
-department: Concentric Web Hosting
-company: XO Communications, Inc.
-mozillaWorkUrl: 
-
-dn: Tom Biskner,mail=tom.biskner@xo.com
-objectClass: top
-objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: mozillaAbPersonAlpha
-givenName: Tom
-sn: Biskner
-cn: Tom Biskner
-mozillaNickname: 
-mail: tom.biskner@xo.com
-mozillaSecondEmail: 
-nsAIMid: 
-mozillaUseHtmlMail: false
-telephoneNumber: 
-homePhone: 
-fax: 
-pager: 
-mobile: 
-street: 
-mozillaWorkStreet2: 
-l: 
-st: 
-postalCode: 
-c: US
-title: 
-department: 
-company: XO Communications, Inc.
-mozillaWorkUrl: 
+department: GSS
+company: Global System Services Corporation
+mozillaWorkUrl: http://www.gssnet.com
 
 dn: cn=Ron Herardian,mail=rherardi@gssnet.com
 objectclass: top
@@ -947,14 +106,12 @@ modifytimestamp: 0Z
 telephoneNumber: 1 (650) 965-8669
 homePhone: 1 (408) 985-5656
 fax: 1 (650) 965-8679
-pager: 1 (877) 472-0268
-mobile: 1 (650) 283-5241
-homeStreet: 1400 Bowe Ave.
-homeStreet: 1400 Bowe Ave.
-mozillaHomeStreet2: #1103
-mozillaHomeLocalityName: Santa Clara
+pager: 1 (800) 555-1212
+mobile: 1 (408) 555-1212
+homeStreet: 101 E San Fernando St
+mozillaHomeLocalityName: San Jose
 mozillaHomeState: CA
-mozillaHomePostalCode: 95051
+mozillaHomePostalCode: 95112
 mozillaHomeCountryName: US
 street: 650 Castro Street
 mozillaWorkStreet2: STE 120-268
@@ -965,11 +122,9 @@ c: US
 title: Chief Systems Architect
 department: Engineering
 company: Global System Services Corporation
-mozillaWorkUrl: http://www.gssnet.com/
-mozillaHomeUrl: http://names.whitepages.com/Ron/Herardian
+mozillaWorkUrl: http://www.gssnet.comhttp://www.gssnet.com/
 mozillaCustom1: Test Data (custom field #1)
 mozillaCustom2: Test Data (custom field #2)
 mozillaCustom3: Test Data (custom field #3)
 mozillaCustom4: Test Data (custom field #4)
 description:: TGlua2VkaW4gVVJMOiBodHRwOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9oZXJhcmRpYW4KU2t5cGUgSUQ6IHJoZXJhcmRpCkVtYWlsIHRvIFNNUzogNjUwMjgzNTI0MUB2dGV4dC5jb20K
-
