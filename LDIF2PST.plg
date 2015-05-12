@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LDIF2PST - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\TEMP\RSP81.tmp" with contents
+[
+/nologo /Zp1 /ML /W3 /GX /O2 /I "C:\Lotus\notesapi\include" /I "C:\xerces-c-windows_2000-msvc_60\include" /I "C:\Xalan-C_1_10_0-win32-msvc_60\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_UNICODE" /D "UNICODE" /D "W32" /D "JESCOMMON_EXPORTS" /D "NMAILXML_EXPORTS" /Fp"Unicode Release/LDIF2PST.pch" /YX /Fo"Unicode Release/" /Fd"Unicode Release/" /FD /c 
+"I:\UAB\Projects\GSS\LDIF2PST\LdifProc.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP81.tmp" 
+<h3>Output Window</h3>
+Compiling...
+LdifProc.cpp
+
+
+
+<h3>Results</h3>
+LdifProc.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

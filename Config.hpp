@@ -1,0 +1,17 @@
+#if !defined(AFX_CONFIG_H__98F73F2A_7E4C_4D14_AF61_06664CED6C53__INCLUDED_)
+#define AFX_CONFIG_H__98F73F2A_7E4C_4D14_AF61_06664CED6C53__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#define XMLCONFIG_FILTER			_T("Filter")
+#define XMLCONFIG_INPUTDIR			_T("InputDir")
+#define XMLCONFIG_OUTPUTDIR			_T("OutputDir")
+#define XMLCONFIG_LOGDIR			_T("LogDir")
+#define XMLCONFIG_LOGSIZEWRAP		_T("LogSizeWrap")
+#define XMLCONFIG_DEFNAME			_T("DefaultName")
+#define XMLCONFIG_DEFEMAIL			_T("DefaultEmail")
+#define XMLCONFIG_OUTLOOKFILE		_T("OutlookFile")
+
+#endif // !defined(AFX_CONFIG_H__98F73F2A_7E4C_4D14_AF61_06664CED6C53__INCLUDED_)

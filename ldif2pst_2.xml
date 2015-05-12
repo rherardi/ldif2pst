@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:ldif2PST language="en" source="LDIF" target="PST"
+	xmlns:tns="http://www.gssnet.com/ldif2pst"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.gssnet.com/ldif2pst ldif2pst.xsd ">
+
+	<configEntry setting="InputDir" value="C:/NSF2PST/TEST" />
+	<configEntry setting="OutputDir" value="C:/NSF2PST/TEST" />
+	<configEntry setting="LogDir" value="C:/NSF2PST/TEST" />
+	<configEntry setting="DefaultName" value="LDIF2PST Utility" />
+	<configEntry setting="DefaultEmail" value="ldif2pst@gssnet.com" />
+	
+	<person>
+		<personItem name="PR_MESSAGE_CLASS" value="IPM.Contact.Contact">
+			<ldifAttribute name="dn" placeholder="{dn}" />
+		</personItem>
+		<!-- 1 is MSGFLAG_READ -->
+		<personItem name="PR_MESSAGE_FLAGS" value="1" numeric="true">
+			<ldifAttribute name="dn" placeholder="{dn}" />
+		</personItem>
+
+		<!-- PR_SENDER_ENTRYID will be set internally -->
+		<personItem name="PR_SENDER_NAME" value="{Name}" condition="Sender">
+			<configSetting name="DefaultName" placeholder="{Name}"/>
+		</personItem>
+		<personItem name="PR_SENDER_EMAIL_ADDRESS" value="{Email}" condition="Sender">
+			<configSetting name="DefaultEmail" placeholder="{Email}"/>
+		</personItem>
+		<personItem name="PR_SENDER_ADDRTYPE" value="SMTP" condition="Sender">
+		</personItem>
+		
+		<!-- PR_SENT_REPRESENTING_ENTRYID will be set internally -->
+		<personItem name="PR_SENT_REPRESENTING_NAME" value="{Name}" condition="Sender">
+			<configSetting name="DefaultName" placeholder="{Name}"/>
+		</personItem>
+		<personItem name="PR_SENT_REPRESENTING_EMAIL_ADDRESS" value="{Email}" condition="Sender">
+			<configSetting name="DefaultEmail" placeholder="{Email}"/>
+		</personItem>
+		<personItem name="PR_SENT_REPRESENTING_ADDRTYPE" value="SMTP" condition="Sender">
+		</personItem>
+
+		<personItem name="PR_IMPORTANCE" numeric="true" value="1">
+		</personItem>
+
+		<!-- PR_MESSAGE_DELIVERY_TIME will be set internally -->
+		<personItem name="PR_DISPLAY_NAME" value="{DisplayName}">
+			<ldifAttribute name="cn" placeholder="{DisplayName}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_SUBJECT" value="{Subject}">
+			<ldifAttribute name="cn" placeholder="{Subject}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_GIVEN_NAME" value="{GivenName}">
+			<ldifAttribute name="givenName" placeholder="{GivenName}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_SURNAME" value="{SurName}">
+			<ldifAttribute name="sn" placeholder="{SurName}"></ldifAttribute>
+		</personItem>
+		
+		<!-- Address -->
+		<personItem name="PR_BUSINESS_ADDRESS_CITY" value="{City}">
+			<ldifAttribute name="l" placeholder="{City}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_BUSINESS_ADDRESS_COUNTRY" value="{Country}">
+			<ldifAttribute name="c" placeholder="{Country}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_BUSINESS_ADDRESS_POSTAL_CODE" value="{PostalCode}">
+			<ldifAttribute name="postalCode" placeholder="{PostalCode}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE" value="{State}">
+			<ldifAttribute name="st" placeholder="{State}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_BUSINESS_ADDRESS_STREET" value="{Street}">
+			<ldifAttribute name="street" placeholder="{Street}"></ldifAttribute>
+		</personItem>
+
+		<!-- Various phones/pager/fax -->
+		<personItem name="PR_BUSINESS_FAX_NUMBER" value="{Fax}">
+			<ldifAttribute name="fax" placeholder="{Fax}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_BUSINESS_TELEPHONE_NUMBER" value="{Telephone}">
+			<ldifAttribute name="telephoneNumber" placeholder="{Telephone}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_CELLULAR_TELEPHONE_NUMBER" value="{Mobile}">
+			<ldifAttribute name="mobile" placeholder="{Mobile}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_HOME_TELEPHONE_NUMBER" value="{HomePhone}">
+			<ldifAttribute name="homePhone" placeholder="{HomePhone}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_PAGER_TELEPHONE_NUMBER" value="{Pager}">
+			<ldifAttribute name="pager" placeholder="{Pager}"></ldifAttribute>
+		</personItem>
+		
+		<!-- Position/company info -->
+		<personItem name="PR_TITLE" value="{Title}">
+			<ldifAttribute name="title" placeholder="{Title}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_COMPANY_NAME" value="{Company}">
+			<ldifAttribute name="company" placeholder="{Company}"></ldifAttribute>
+		</personItem>
+		<personItem name="PR_DEPARTMENT_NAME" value="{Department}">
+			<ldifAttribute name="department" placeholder="{Department}"></ldifAttribute>
+		</personItem>
+ 
+ 		<!-- Email/Email2 -->
+		<!--
+		<personItem name="0x8046001F" value="{Email}">
+			<ldifAttribute name="mail" placeholder="{Email}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x8047001F" value="SMTP">
+		</personItem>
+		<personItem name="0x8048001F" value="{SecondEmail}">
+			<ldifAttribute name="mozillaSecondEmail" placeholder="{SecondEmail}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x8049001F" value="SMTP">
+		</personItem>
+		-->
+			
+		<!-- Contacts Outlook card via named properties -->
+		<personItem name="0x8016001F" value="{FileUnder}">
+			<ldifAttribute name="cn" placeholder="{FileUnder}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x8048001F" value="{Email1DisplayName}">
+			<ldifAttribute name="cn" placeholder="{Email1DisplayName}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x804A001F" value="SMTP">
+		</personItem>
+		<personItem name="0x804B001F" value="{Email1}">
+			<ldifAttribute name="mail" placeholder="{Email1}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x804C001F" value="{Email1OriginalDisplayName}">
+			<ldifAttribute name="mail" placeholder="{Email1OriginalDisplayName}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x804A001F" value="SMTP">
+		</personItem>
+		<personItem name="0x8050001F" value="{Email2DisplayName} ({Email2})">
+			<ldifAttribute name="cn" placeholder="{Email2DisplayName}"></ldifAttribute>
+			<ldifAttribute name="mozillaSecondEmail" placeholder="{Email2}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x8053001F" value="{Email2}">
+			<ldifAttribute name="mozillaSecondEmail" placeholder="{Email2}"></ldifAttribute>
+		</personItem>
+		<personItem name="0x8052001F" value="SMTP">
+		</personItem>
+
+
+	</person>
+</tns:ldif2PST>

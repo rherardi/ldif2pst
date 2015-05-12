@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.gssnet.com/ldif2pst"
+	xmlns:tns="http://www.gssnet.com/ldif2pst" version="1.0.0.0">
+
+	<simpleType name="sourceType">
+		<restriction base="string">
+			<enumeration value="LDIF"></enumeration>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="targetType">
+		<restriction base="string">
+			<enumeration value="PST"></enumeration>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="languageType">
+		<restriction base="ID">
+			<enumeration value="en"></enumeration>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="settingType">
+		<restriction base="ID">
+			<enumeration value="Filter"></enumeration>
+			<enumeration value="InputDir"></enumeration>
+			<enumeration value="OutputDir"></enumeration>
+			<enumeration value="LogDir"></enumeration>
+			<enumeration value="LogSizeWrap"></enumeration>
+			<enumeration value="DefaultName"></enumeration>
+			<enumeration value="DefaultEmail"></enumeration>
+			<enumeration value="OutlookFile"></enumeration>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="valueModifierType">
+		<restriction base="string">
+			<enumeration value="base64"></enumeration>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="conditionType">
+		<restriction base="string">
+			<enumeration value="Sender"></enumeration>
+		</restriction>
+	</simpleType>
+
+	<complexType name="conversionRuleType">
+		<sequence>
+			<element name="conversion" maxOccurs="unbounded">
+				<complexType>
+					<attribute name="input" type="string"></attribute>
+					<attribute name="output" type="string"></attribute>
+				</complexType>
+			</element>
+			<element name="default">
+				<complexType>
+					<attribute name="output" type="string"></attribute>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+
+	<complexType name="personType">
+		<sequence>
+			<element name="personItem" minOccurs="1"
+				maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="ldifAttribute" minOccurs="0"
+							maxOccurs="unbounded">
+							<complexType>
+								<sequence>
+									<element name="conversionRule"
+										type="tns:conversionRuleType" minOccurs="0" maxOccurs="1">
+									</element>
+								</sequence>
+								<attributeGroup
+									ref="tns:ldifAttributeType">
+								</attributeGroup>
+							</complexType>
+						</element>
+						<element name="configSetting" minOccurs="0"
+							maxOccurs="unbounded">
+							<complexType>
+								<attributeGroup
+									ref="tns:ldifAttributeType">
+								</attributeGroup>
+							</complexType>
+						</element>
+					</sequence>
+					<attribute name="name" type="string"
+						use="required">
+					</attribute>
+					<attribute name="value" type="string"
+						use="required">
+					</attribute>
+					<attribute name="condition" type="tns:conditionType"
+						use="optional">
+					</attribute>
+					<attribute name="numeric" type="boolean" use="optional">
+					</attribute>
+					<attribute name="namedProperty" type="boolean" use="optional">
+					</attribute>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+
+	<attributeGroup name="ldifAttributeType">
+		<attribute name="name" type="string" use="required"></attribute>
+		<attribute name="placeholder" type="string" use="required"></attribute>
+		<attribute name="valueModifier" type="tns:valueModifierType"
+			use="optional">
+		</attribute>
+		<attribute name="valueModifierParameters" type="string"
+			use="optional">
+		</attribute>
+	</attributeGroup>
+
+	<complexType name="ldif2PSTType">
+		<sequence>
+			<element name="configEntry" minOccurs="0"
+				maxOccurs="unbounded">
+				<complexType>
+					<attribute name="setting" type="tns:settingType"></attribute>
+					<attribute name="value" type="string"
+						use="required">
+					</attribute>
+				</complexType>
+			</element>
+			<element name="person" minOccurs="1" maxOccurs="1"
+				type="tns:personType">
+			</element>
+		</sequence>
+		<attribute name="source" type="tns:sourceType" use="required"></attribute>
+		<attribute name="target" type="tns:targetType" use="required"></attribute>
+		<attribute name="language" type="tns:languageType"
+			use="required">
+		</attribute>
+	</complexType>
+	<element name="ldif2PST" type="tns:ldif2PSTType"></element>
+</schema>
